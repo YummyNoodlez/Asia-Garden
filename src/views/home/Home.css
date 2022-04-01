@@ -1,0 +1,191 @@
+section {
+  padding: 5em 2em;
+}
+
+.hero {
+  background-image: url("../../Images/Krillin2.jpg");
+  background: #d9d7be;
+  background-position: 10%;
+  background-size: cover;
+  background-repeat: none;
+  padding: 2em;
+}
+
+.hero .subhead {
+  text-transform: uppercase;
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+  font-size: 5rem;
+}
+
+.hero .info {
+  text-align: center;
+  color: black;
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+.food {
+  border-top: 8px solid var(--main-colour);
+  padding: 0em;
+}
+
+.food .head {
+  font-size: 2em;
+  margin-bottom: 0em;
+}
+
+.food .mid {
+  font-size: 2em;
+  text-align: center;
+}
+
+.food .mid .slogan {
+  font-size: 1em;
+}
+
+.food .mid img {
+  margin: 0rem 1vw 1rem 1vw;
+  width: 25vw;
+  height: 25vw;
+}
+
+.food .mid img:hover {
+  cursor: pointer;
+}
+
+.special {
+  background-color: #161414;
+  text-align: center;
+  border-top: 8px solid var(--main-colour);
+}
+
+.special .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50vw auto;
+      grid-template-columns: 50vw auto;
+}
+
+.special .r_special {
+  padding: 6rem;
+  text-align: center;
+}
+
+.special .l_special {
+  text-align: center;
+  width: 50vw;
+}
+
+.special .click {
+  border: 3px solid;
+  color: var(--main-colour);
+}
+
+.special .click:hover {
+  color: #d9d7be;
+}
+
+.special .i_lunch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: calc(5vw + 8em);
+  width: calc(20vw + 15rem);
+  margin: 0rem 2vw 2rem 4vw;
+}
+
+.special .i_lunch:hover {
+  cursor: pointer;
+}
+
+.special h1 {
+  font-size: 3rem;
+  padding-bottom: .5em;
+}
+
+label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: .5rem;
+}
+
+input, textarea {
+  width: 100%;
+  padding: .8em;
+  margin-bottom: 1em;
+  border-radius: .3em;
+  border: 1px solid gray;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  resize: none;
+}
+
+.send-message-cta {
+  background-color: var(--main-colour);
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: .8em 2em;
+  width: unset;
+  text-align: center;
+  cursor: pointer;
+}
+
+.send-message-cta:hover {
+  background-color: black;
+}
+
+.contact-section {
+  border-top: 8px solid var(--main-colour);
+  padding: 3em 0em 3em 5vw;
+}
+
+.contact-section .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: calc(15vw + 15em) auto;
+      grid-template-columns: calc(15vw + 15em) auto;
+  margin-left: 2em;
+}
+
+.contact-section .contact-right {
+  position: absolute;
+  right: 10%;
+}
+
+.contact-section iframe {
+  height: 27em;
+  width: 27em;
+}
+
+.contact-section .send-message-cta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+}
+
+.contact-section label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+}
+
+@media screen and (max-width: 960px) {
+  .lunch {
+    display: block;
+  }
+  .lunch .container {
+    display: block;
+  }
+  .lunch .r_special {
+    padding: 1em;
+  }
+}
+/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,62 @@
+.gallery {
+  text-align: center;
+}
+
+.gallery h1 {
+  margin: 2vh;
+  padding-top: .7em;
+  font-size: calc(4vw + 1em);
+}
+
+.slider {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 2em;
+}
+
+.image {
+  width: calc(23vw + 1em);
+  height: calc(23vw + 1em);
+  margin: 0rem 1.5vw 0rem 1.5vw;
+}
+
+.image:hover {
+  cursor: pointer;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 35%;
+  right: 1vw;
+  font-size: calc(3vw + .5em);
+  color: black;
+  z-index: 5;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 35%;
+  left: 1vw;
+  font-size: calc(3vw + .5em);
+  color: black;
+  z-index: 5;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+/*# sourceMappingURL=Gallery.css.map */

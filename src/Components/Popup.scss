@@ -1,0 +1,36 @@
+.popup{ //center image and dim background
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+.popup-inner{ //image size nad hover for zoom
+    position: relative;
+    height: 40vw;
+    width: 40vw;
+    &:hover{
+        cursor: zoom-in;
+    }
+    
+}
+.popped{ //image size
+    height: 40vw;
+    width: 40vw;
+    
+    
+}
+.mask { //div for outside image to close popup
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    
+  }
+ 

@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap");
+:root {
+  --main-colour: #cc2432
+;
+}
+
+body {
+  background: #292626;
+  margin: 0;
+  font-family: 'Lobster Two', cursive;
+  color: var(--main-colour);
+}
+
+.Title {
+  background: white;
+  padding: 1rem;
+}
+
+.Title .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--main-colour);
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding: .7rem;
+}
+
+.Title .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 300px auto;
+      grid-template-columns: 300px auto;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: none;
+  position: unset;
+  height: auto;
+  margin: 1.5em 0em 0em 0em;
+  padding-top: .4em;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: .1em 1em;
+}
+
+a:hover {
+  color: var(--main-colour);
+  cursor: pointer;
+}
+
+a .bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.order {
+  background: white;
+  color: black;
+}
+
+.order h2 {
+  font-size: 1.8em;
+  margin: 0%;
+  padding-left: .5rem;
+}
+
+.end {
+  color: black;
+  background: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1em 0em 5em 2em;
+}
+
+.end h1 {
+  text-align: center;
+  font-size: calc(.5vw + 1em);
+  padding: .1em 1em;
+  margin: 0;
+}
+
+.end h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+  font-size: 2em;
+  margin: 0;
+}
+
+.end .location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.end .hours {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.end .skip {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+  width: 6em;
+  height: 2em;
+  padding-top: .5em;
+}
+
+.end .uber {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+  height: 3.5em;
+  width: 3.5em;
+}
+
+.burger {
+  display: none;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+@media screen and (max-width: 1170px) {
+  iframe {
+    display: none;
+  }
+  .end {
+    padding: 1em 0em 2em 0em;
+    font-size: 2.5vh;
+  }
+  .bot {
+    display: -ms-grid;
+    display: grid;
+  }
+  .hours {
+    padding: 2em 0em 2em 0em;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .container {
+    place-content: space-between;
+  }
+  .container .burger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 2em;
+    float: right;
+    padding: 1rem;
+  }
+  .container .burger:hover {
+    cursor: pointer;
+  }
+  .nav {
+    display: none;
+  }
+  .mobile-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    background-color: bisque;
+  }
+  .primary-nav-mobile {
+    margin: auto;
+    width: auto;
+    height: auto;
+    display: block;
+    text-align: center;
+  }
+  li {
+    padding: .2em;
+  }
+}
+/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,181 @@
+//Home page css
+section{
+    padding: 5em 2em;
+}
+
+.hero{ //second section with main title
+    background-image: url("../../Images/Krillin2.jpg");
+    background: #d9d7be;
+    background-position: 10%;
+    background-size: cover;
+    background-repeat: none;
+    padding: 2em;
+    
+    
+    .subhead{   //title text 
+        text-transform: uppercase;
+
+        display: grid;
+        text-align: center;
+        font-size: 5rem;
+    }
+    .info{
+        text-align: center;
+        color: black;
+        font-size: 1.5rem;
+    }
+    
+}
+h2{     // text of Food, Halal meat, Only from 12:30 to 3:30pm, Contact and order here
+    font-size: 2em;
+}
+
+.food{  //Food display section
+    border-top: 8px solid var(--main-colour);
+    padding: 0em;
+    .head{  //Food text
+        font-size: 2em;
+        margin-bottom: 0em;
+    }
+   
+    .mid{ //mid container
+        font-size: 2em;
+        text-align: center;
+        
+        .slogan{
+            font-size: 1em;  
+        }
+        
+        img{        //images in the Food section
+            margin: 0rem 1vw 1rem 1vw;
+            width: 25vw;
+            height: 25vw;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        
+    }
+}
+
+
+.special{ //lunch special section
+    background-color: rgb(22, 20, 20);
+    text-align: center;
+    border-top: 8px solid var(--main-colour);
+    
+
+    .container{
+        display: grid;
+        grid-template-columns: 50vw auto;
+    }
+        .r_special{         //right side of lunch special
+            padding: 6rem;
+            text-align: center;
+        }
+        .l_special{
+            text-align: center;
+            width: 50vw;
+
+        }
+        .click{             //Click Here link to lunch special menu
+            border: 3px solid;
+            color: var(--main-colour);
+            &:hover {
+                color: #d9d7be;
+            }
+    }
+        .i_lunch{           //lunch special images
+            display: flex;
+            height: calc(5vw + 8em);
+            width: calc(20vw + 15rem);
+            margin: 0rem 2vw 2rem 4vw;
+            &:hover{
+                cursor: pointer;
+            }
+
+    }
+    h1{ //Lunch Special text
+        font-size: 3rem;
+        padding-bottom: .5em;
+    }
+}
+
+
+label {     //contact form label
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+}
+
+input,textarea {        //input text box
+   
+    width: 100%;
+    padding: .8em;
+    margin-bottom: 1em;
+    border-radius: .3em;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.send-message-cta {             //send message button
+    background-color: var(--main-colour);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: .8em 2em;
+    width: unset;
+    text-align: center;
+    cursor: pointer;
+    &:hover {
+        background-color: black;
+    }
+}
+
+
+
+
+
+.contact-section{           //contact area
+    border-top: 8px solid var(--main-colour);
+    padding: 3em 0em 3em 5vw;
+    
+    .container{
+        display: grid;
+        grid-template-columns: calc(15vw + 15em) auto;
+        margin-left: 2em;
+    }
+    .contact-right{     
+        position: absolute;
+        right: 10%;
+    }
+    iframe{
+        height: 27em;
+        width: 27em;
+        
+    }
+    .send-message-cta{
+        display: flex;
+        float:left;
+    }
+    label{
+        display: flex;
+        float:left;
+    }
+}
+
+@media screen and (max-width: 960px) { //lunch special mobile layout
+    .lunch{
+        display: block;
+        .container{
+            display: block;
+        }
+        .r_special{
+            padding: 1em;
+        }
+       
+    }
+}
+
+ 

@@ -1,0 +1,17 @@
+.about {
+  text-align: center;
+  font-size: calc(3vw + .5em);
+}
+
+.us {
+  padding-top: 2em;
+}
+
+.asia {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: calc(2vw + .5em);
+  color: white;
+  padding-top: 0;
+}
+/*# sourceMappingURL=AboutUs.css.map */
