@@ -174,12 +174,12 @@ ul {
 }
 
 @media screen and (max-width: 960px) {
-  .container {
+  .Title .container {
     place-content: space-between;
     -ms-grid-columns: 30vw auto;
         grid-template-columns: 30vw auto;
   }
-  .container .burger {
+  .Title .container .burger {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -187,7 +187,7 @@ ul {
     float: right;
     padding: 1rem;
   }
-  .container .burger:hover {
+  .Title .container .burger:hover {
     cursor: pointer;
   }
   .nav {
