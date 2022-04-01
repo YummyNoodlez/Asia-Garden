@@ -176,8 +176,8 @@ ul {
 @media screen and (max-width: 960px) {
   .container {
     place-content: space-between;
-    -ms-grid-columns: 300vw auto;
-        grid-template-columns: 300vw auto;
+    -ms-grid-columns: 30vw auto;
+        grid-template-columns: 30vw auto;
   }
   .container .burger {
     display: -webkit-box;
