@@ -28,8 +28,8 @@ body {
 .Title .container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 300px auto;
-      grid-template-columns: 300px auto;
+  -ms-grid-columns: 30vw auto;
+      grid-template-columns: 30vw auto;
 }
 
 .nav {
