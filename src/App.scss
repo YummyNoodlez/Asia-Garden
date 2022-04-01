@@ -29,7 +29,7 @@ body{
 
       .container{
         display: grid;
-        grid-template-columns: 30vw auto;
+        grid-template-columns: 300px auto;
         
     }
 
@@ -163,6 +163,7 @@ ul{ //top navigation lists
 
     .container{     
         place-content: space-between;
+        grid-template-columns: 300vw auto;
         .burger{
             display: flex;
             width: 2em;
