@@ -64,7 +64,8 @@ function Home() {
                 </div>
             </div>
         </section>
-
+        
+        
         <section className="contact-section" id="contact">      {/*contact section and google maps */}                               
             <div className="container" id="end-contain">
                 <div className="contact-left">

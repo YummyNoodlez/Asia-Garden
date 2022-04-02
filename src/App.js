@@ -62,7 +62,7 @@ function App() {
 
         <section className="end">                                                 
             <div className="bot">
-                <div>
+                <div className="icons">
                     <a className="uber" href="https://www.ubereats.com/ca/store/asia-garden-rexdale/DRzKBEfSSzixcvMdSp3VeQ" target="_blank"><img className="uber" src={uber} alt=""/></a>
                     <a className="skip" href="https://www.skipthedishes.com/asia-garden-restaurant" target="_blank"><img className="skip" src={skip} alt=""/></a>
                 </div>

@@ -157,6 +157,21 @@ ul{ //top navigation lists
         padding: 2em 0em 2em 0em;
     }
     
+    .order{
+        h2{
+            text-align: center;
+            padding-left: 0em;
+        }
+        
+    }
+    .icons{
+        display: block;
+        margin-left: auto;
+        margin-right: 25vw;
+        width: 40vw;
+        
+        
+    }
     
 }
 @media screen and (max-width: 960px) {  //mobile layout for navigation and hamburger manu
@@ -195,6 +210,7 @@ ul{ //top navigation lists
         padding: .2em;
       
     }
+    
 }
     
     

@@ -59,4 +59,15 @@
       -ms-user-select: none;
           user-select: none;
 }
+
+@media screen and (max-width: 600px) {
+  .right-arrow {
+    top: 80%;
+    right: 35vw;
+  }
+  .left-arrow {
+    top: 80%;
+    left: 35vw;
+  }
+}
 /*# sourceMappingURL=Gallery.css.map */

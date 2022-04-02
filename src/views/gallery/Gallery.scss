@@ -45,3 +45,15 @@
     user-select: none;
 }
 
+@media screen and (max-width: 600px) { //moves slider arrow to bottom of images for mobile
+    .right-arrow{
+        top: 80%;
+        right: 35vw;
+    }
+    .left-arrow{
+        top: 80%;
+        left: 35vw;
+    }
+
+}
+

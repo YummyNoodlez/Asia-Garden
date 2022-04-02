@@ -97,6 +97,7 @@ h2 {
   height: calc(5vw + 8em);
   width: calc(20vw + 15rem);
   margin: 0rem 2vw 2rem 4vw;
+  text-align: center;
 }
 
 .special .i_lunch:hover {
@@ -178,14 +179,29 @@ input, textarea {
 }
 
 @media screen and (max-width: 960px) {
-  .lunch {
-    display: block;
-  }
   .lunch .container {
     display: block;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    text-align: center;
+  }
+  .lunch .l_special {
+    display: block;
+    width: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .lunch .r_special {
+    display: block;
     padding: 1em;
+  }
+  .lunch .i_lunch {
+    display: inline;
+    margin: 0em 2vw 1.5em 2vw;
+  }
+  .contact-section {
+    padding: 3em 0em 3em 0em;
   }
 }
 /*# sourceMappingURL=home.css.map */
