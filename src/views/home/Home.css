@@ -150,7 +150,7 @@ input, textarea {
   display: grid;
   -ms-grid-columns: calc(15vw + 15em) auto;
       grid-template-columns: calc(15vw + 15em) auto;
-  margin-left: 2em;
+  margin-left: calc(.5vw + 1.5em);
 }
 
 .contact-section .contact-right {
@@ -201,6 +201,11 @@ input, textarea {
   }
   .contact-section {
     padding: 3em 0em 3em 0em;
+  }
+  .contact-section .container {
+    -ms-grid-columns: calc(25vw + 10em) auto;
+        grid-template-columns: calc(25vw + 10em) auto;
+    text-align: center;
   }
   .hero .subhead {
     font-size: calc(8vw + 1rem);

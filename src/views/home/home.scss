@@ -144,7 +144,7 @@ input,textarea {        //input text box
     .container{
         display: grid;
         grid-template-columns: calc(15vw + 15em) auto;
-        margin-left: 2em;
+        margin-left: calc(.5vw + 1.5em);
     }
     .contact-right{     
         position: absolute;
@@ -194,11 +194,16 @@ input,textarea {        //input text box
 
     .contact-section{
         padding: 3em 0em 3em 0em;
+        .container{
+            grid-template-columns: calc(25vw + 10em) auto;
+            text-align: center;
+        }
     }
     .hero{
-    .subhead{
+        .subhead{
         font-size: calc(8vw + 1rem);
-    }
+        }
+    
 }
 }
 
