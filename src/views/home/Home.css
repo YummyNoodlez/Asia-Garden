@@ -72,7 +72,7 @@ h2 {
 }
 
 .special .r_special {
-  padding: 6rem;
+  padding: 6rem 15em 0rem 0rem;
   text-align: center;
 }
 
@@ -95,9 +95,8 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   height: calc(5vw + 8em);
-  width: calc(20vw + 15rem);
+  width: calc(20vw + 8rem);
   margin: 0rem 2vw 2rem 4vw;
-  text-align: center;
 }
 
 .special .i_lunch:hover {
@@ -202,6 +201,9 @@ input, textarea {
   }
   .contact-section {
     padding: 3em 0em 3em 0em;
+  }
+  .hero .subhead {
+    font-size: calc(8vw + 1rem);
   }
 }
 /*# sourceMappingURL=home.css.map */

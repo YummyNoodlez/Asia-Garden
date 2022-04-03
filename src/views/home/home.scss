@@ -70,7 +70,7 @@ h2{     // text of Food, Halal meat, Only from 12:30 to 3:30pm, Contact and orde
         grid-template-columns: 50vw auto;
     }
         .r_special{         //right side of lunch special
-            padding: 6rem;
+            padding: 6rem 15em 0rem 0rem;
             text-align: center;
         }
         .l_special{
@@ -88,9 +88,8 @@ h2{     // text of Food, Halal meat, Only from 12:30 to 3:30pm, Contact and orde
         .i_lunch{           //lunch special images
             display: flex;
             height: calc(5vw + 8em);
-            width: calc(20vw + 15rem);
+            width: calc(20vw + 8rem);
             margin: 0rem 2vw 2rem 4vw;
-            text-align: center;
             &:hover{
                 cursor: pointer;
             }
@@ -188,7 +187,7 @@ input,textarea {        //input text box
         .i_lunch{
             display: inline;
             margin: 0em 2vw 1.5em 2vw;
-            
+
         }
        
     }
@@ -196,6 +195,11 @@ input,textarea {        //input text box
     .contact-section{
         padding: 3em 0em 3em 0em;
     }
+    .hero{
+    .subhead{
+        font-size: calc(8vw + 1rem);
+    }
+}
 }
 
  
